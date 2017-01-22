@@ -1,4 +1,4 @@
-DivisionWithPeriodFinding
+DivisionWithPeriodFindings
 ==========================
 <h2>This application allows to divide integer numbers and print the result as long division view into console.
 Application should find and print result of division and period of division. + JUnit tests.</h2>
