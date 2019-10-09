@@ -7,7 +7,7 @@ Application should find and print result of division and period of division. + J
 <h4>Example of result: </h4>
 <br>
 <img source = "https://cloud.githubusercontent.com/assets/15873039/22182323/7cda3996-e0ab-11e6-9d2c-f9c4614e522f.png" />
-</br>
+<br>
 ![capture](https://cloud.githubusercontent.com/assets/15873039/22182356/32a4b198-e0ac-11e6-82c9-b51dc7824f1e.PNG)
 ![division3](https://cloud.githubusercontent.com/assets/15873039/22182363/5b16238c-e0ac-11e6-9415-b08763dd9c93.png)
 ![division4](https://cloud.githubusercontent.com/assets/15873039/22182377/c3c84996-e0ac-11e6-944f-fa880fb0fa25.png)
