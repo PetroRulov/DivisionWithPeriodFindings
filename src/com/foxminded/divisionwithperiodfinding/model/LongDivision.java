@@ -45,7 +45,7 @@ public class LongDivision {
 
     List<Integer> computeSubtrahends(int dividend, int diviser) {
         char quotientDigits[] = String.valueOf(Math.abs(dividend/diviser)).toCharArray();
-        List<Integer> subtrahendsList = new ArrayList<>();
+        List<Integer> subtrahendsList = new ArrayList<Integer>();
         for (int i = 0; i < quotientDigits.length; i++) {
             if (!String.valueOf(quotientDigits[i]).equals("0")) {
                 subtrahendsList.add(Integer.parseInt(String.valueOf(quotientDigits[i])) * Math.abs(diviser));
@@ -171,7 +171,7 @@ public class LongDivision {
         int dotIndex = quotient.indexOf(".");
         String afterPointQutient = quotient.substring(dotIndex + 1);
         char afterPointQuotientDigits[] = afterPointQutient.toCharArray();
-        List<Integer> subtrahendsList = new ArrayList<>();
+        List<Integer> subtrahendsList = new ArrayList<Integer>();
         for (int i = 0; i < afterPointQuotientDigits.length; i++) {
             char c = afterPointQuotientDigits[i];
             if (!"0".equals(String.valueOf(c)) && Character.isDigit(c)) {

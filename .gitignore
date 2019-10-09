@@ -1,6 +1,9 @@
+# Directories #
 bin/
-*/.idea
-*/.settings/
+out/
+.idea/
+.settings/
+# Files #
 *.iml
 *.classpath
 *.project
